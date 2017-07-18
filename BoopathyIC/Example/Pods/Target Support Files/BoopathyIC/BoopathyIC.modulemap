@@ -1,0 +1,6 @@
+framework module BoopathyIC {
+  umbrella header "BoopathyIC-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BD374B5CBB6C0147340EA244C39BAC /* Pods-BoopathyIC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFA2FFB590042B5292154FF4DD5D3F1 /* Pods-BoopathyIC_Tests-dummy.m */; };
+		0DA288DC9A2AB7FE9D738CE7F8CFCB83 /* BoopathyIC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5ECC4D0B890826B2B8F043AEA1229B /* BoopathyIC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274D9499B2F7189676414C2A2EE5FF28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		63BE39101BB753251A6746B18975650C /* Pods-BoopathyIC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B7918BB5AE39E0BBAB4AF8FE3FB966 /* Pods-BoopathyIC_Example-dummy.m */; };
+		64A4A3465FF8A9CEB11739605C6A49C7 /* BoopathyIC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 612ADA011C0448CE2772C57329C1FAF5 /* BoopathyIC-dummy.m */; };
+		673AAC07870D57DDA472E2DA93B2822E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6C9C8B421F1E293E00E8A061 /* ImageCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C8B411F1E293E00E8A061 /* ImageCompression.swift */; };
+		6F9FB8F3C666233700B4A43245DFB668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AC1DF2135A644199AD1337DE48F9CA69 /* Pods-BoopathyIC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86969C81840D6E71898AA9EA76617E6A /* Pods-BoopathyIC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB4ED43C94AFA9C06D933D46AE49535 /* Pods-BoopathyIC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 295A461CBED80B941E29F141615B2916 /* Pods-BoopathyIC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7245B336125FD368ABA81FEB902647BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BAE671C9AC9A36ECAF5F59D7E568807;
+			remoteInfo = BoopathyIC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28E6C9DEA2D833358CC5042609CA58E6 /* BoopathyIC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BoopathyIC.modulemap; sourceTree = "<group>"; };
+		295A461CBED80B941E29F141615B2916 /* Pods-BoopathyIC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoopathyIC_Example-umbrella.h"; sourceTree = "<group>"; };
+		3AEF72BD0C4F4195D3923792244F0349 /* Pods-BoopathyIC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoopathyIC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C52D2F2B6D0FFEBC3929C91CD23AB56 /* Pods-BoopathyIC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoopathyIC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		46B7918BB5AE39E0BBAB4AF8FE3FB966 /* Pods-BoopathyIC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoopathyIC_Example-dummy.m"; sourceTree = "<group>"; };
+		48058323C7E9D710AC5BC5FA1C07ABEF /* Pods-BoopathyIC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoopathyIC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D55CAFCE7C63890A8C627FC4B499397 /* Pods-BoopathyIC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoopathyIC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EFA2FFB590042B5292154FF4DD5D3F1 /* Pods-BoopathyIC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoopathyIC_Tests-dummy.m"; sourceTree = "<group>"; };
+		52D742151B38D6804FBA6DD1F23BEF2A /* Pods-BoopathyIC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoopathyIC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		53268169935FA4561F6FB5632802BC84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612ADA011C0448CE2772C57329C1FAF5 /* BoopathyIC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BoopathyIC-dummy.m"; sourceTree = "<group>"; };
+		656729C1B56C6D3A188F6F2CA01A17E4 /* Pods-BoopathyIC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoopathyIC_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C9C8B411F1E293E00E8A061 /* ImageCompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCompression.swift; sourceTree = "<group>"; };
+		705B6991EF6DEFB0A7E788AC2E895D2E /* Pods-BoopathyIC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoopathyIC_Example-resources.sh"; sourceTree = "<group>"; };
+		71D5AC82AE0EED06273346186995C29A /* Pods-BoopathyIC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BoopathyIC_Example.modulemap"; sourceTree = "<group>"; };
+		7D7D8ADC0DAF4657A290359B4DD2A4A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86969C81840D6E71898AA9EA76617E6A /* Pods-BoopathyIC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoopathyIC_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8A2443CCC3415A73CE016EB09306B492 /* BoopathyIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoopathyIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99F1D237E2CD189A6C715AE308098EFE /* BoopathyIC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoopathyIC.xcconfig; sourceTree = "<group>"; };
+		A73EB3F697D044597CB3271FE5B8CBA7 /* Pods-BoopathyIC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoopathyIC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ADBD8DB1BD4AC032D1A2F04955D04BAE /* BoopathyIC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoopathyIC-prefix.pch"; sourceTree = "<group>"; };
+		B613E5EF17683B48F5C402E35C50DC2C /* Pods_BoopathyIC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoopathyIC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA308BB12C5AA3C3CD002F6F71D609B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28160920EB0761A534B29C0FAB6DE4B /* Pods-BoopathyIC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoopathyIC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C864777D4128831B71F671B27843FCA8 /* Pods_BoopathyIC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoopathyIC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4265314D9CF0DDF42F0498626432BF /* Pods-BoopathyIC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoopathyIC_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EF5ECC4D0B890826B2B8F043AEA1229B /* BoopathyIC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoopathyIC-umbrella.h"; sourceTree = "<group>"; };
+		F79CECD5AC35C023D13ED43787228BC4 /* Pods-BoopathyIC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoopathyIC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C8C4C4EE5AD988A2544F0C789AFC7D /* Pods-BoopathyIC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BoopathyIC_Tests.modulemap"; sourceTree = "<group>"; };
+		FAF53A7B091DA24C4E7F6680FE69DF3A /* Pods-BoopathyIC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoopathyIC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		084D8F4FAA37F1A286CDC8C178C737AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274D9499B2F7189676414C2A2EE5FF28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989E306542020F907FCEF850F3E7412A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9FB8F3C666233700B4A43245DFB668 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEBF18732A4EDC1ADF24F797606592A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673AAC07870D57DDA472E2DA93B2822E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009258CABD050B4E726F00D742260126 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E10EF1E4B24EB9EC3D5F647BD8562D95 /* BoopathyIC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2476B336176AA570B5B9862D68D94015 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8023EDFDD876B9A58B461D240DCB5FAD /* Pods-BoopathyIC_Example */,
+				A4B688CD556039A79E45A245CAB30F3C /* Pods-BoopathyIC_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E8F2168BC9C3AAC6161800007C97F39 /* BoopathyIC */ = {
+			isa = PBXGroup;
+			children = (
+				E70583A4AF47D599E8CC764B3362E83D /* Classes */,
+			);
+			path = BoopathyIC;
+			sourceTree = "<group>";
+		};
+		5C9F653321DAAEB611CE358EEAE128CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A2443CCC3415A73CE016EB09306B492 /* BoopathyIC.framework */,
+				C864777D4128831B71F671B27843FCA8 /* Pods_BoopathyIC_Example.framework */,
+				B613E5EF17683B48F5C402E35C50DC2C /* Pods_BoopathyIC_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				009258CABD050B4E726F00D742260126 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5C9F653321DAAEB611CE358EEAE128CC /* Products */,
+				2476B336176AA570B5B9862D68D94015 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8023EDFDD876B9A58B461D240DCB5FAD /* Pods-BoopathyIC_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7D7D8ADC0DAF4657A290359B4DD2A4A5 /* Info.plist */,
+				71D5AC82AE0EED06273346186995C29A /* Pods-BoopathyIC_Example.modulemap */,
+				4D55CAFCE7C63890A8C627FC4B499397 /* Pods-BoopathyIC_Example-acknowledgements.markdown */,
+				C28160920EB0761A534B29C0FAB6DE4B /* Pods-BoopathyIC_Example-acknowledgements.plist */,
+				46B7918BB5AE39E0BBAB4AF8FE3FB966 /* Pods-BoopathyIC_Example-dummy.m */,
+				A73EB3F697D044597CB3271FE5B8CBA7 /* Pods-BoopathyIC_Example-frameworks.sh */,
+				705B6991EF6DEFB0A7E788AC2E895D2E /* Pods-BoopathyIC_Example-resources.sh */,
+				295A461CBED80B941E29F141615B2916 /* Pods-BoopathyIC_Example-umbrella.h */,
+				52D742151B38D6804FBA6DD1F23BEF2A /* Pods-BoopathyIC_Example.debug.xcconfig */,
+				3C52D2F2B6D0FFEBC3929C91CD23AB56 /* Pods-BoopathyIC_Example.release.xcconfig */,
+			);
+			name = "Pods-BoopathyIC_Example";
+			path = "Target Support Files/Pods-BoopathyIC_Example";
+			sourceTree = "<group>";
+		};
+		A4B688CD556039A79E45A245CAB30F3C /* Pods-BoopathyIC_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BA308BB12C5AA3C3CD002F6F71D609B8 /* Info.plist */,
+				F7C8C4C4EE5AD988A2544F0C789AFC7D /* Pods-BoopathyIC_Tests.modulemap */,
+				48058323C7E9D710AC5BC5FA1C07ABEF /* Pods-BoopathyIC_Tests-acknowledgements.markdown */,
+				FAF53A7B091DA24C4E7F6680FE69DF3A /* Pods-BoopathyIC_Tests-acknowledgements.plist */,
+				4EFA2FFB590042B5292154FF4DD5D3F1 /* Pods-BoopathyIC_Tests-dummy.m */,
+				EA4265314D9CF0DDF42F0498626432BF /* Pods-BoopathyIC_Tests-frameworks.sh */,
+				656729C1B56C6D3A188F6F2CA01A17E4 /* Pods-BoopathyIC_Tests-resources.sh */,
+				86969C81840D6E71898AA9EA76617E6A /* Pods-BoopathyIC_Tests-umbrella.h */,
+				F79CECD5AC35C023D13ED43787228BC4 /* Pods-BoopathyIC_Tests.debug.xcconfig */,
+				3AEF72BD0C4F4195D3923792244F0349 /* Pods-BoopathyIC_Tests.release.xcconfig */,
+			);
+			name = "Pods-BoopathyIC_Tests";
+			path = "Target Support Files/Pods-BoopathyIC_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E10EF1E4B24EB9EC3D5F647BD8562D95 /* BoopathyIC */ = {
+			isa = PBXGroup;
+			children = (
+				2E8F2168BC9C3AAC6161800007C97F39 /* BoopathyIC */,
+				F837B9D1E06DC8C539985FE5476D4B01 /* Support Files */,
+			);
+			name = BoopathyIC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E70583A4AF47D599E8CC764B3362E83D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C8B411F1E293E00E8A061 /* ImageCompression.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F837B9D1E06DC8C539985FE5476D4B01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E6C9DEA2D833358CC5042609CA58E6 /* BoopathyIC.modulemap */,
+				99F1D237E2CD189A6C715AE308098EFE /* BoopathyIC.xcconfig */,
+				612ADA011C0448CE2772C57329C1FAF5 /* BoopathyIC-dummy.m */,
+				ADBD8DB1BD4AC032D1A2F04955D04BAE /* BoopathyIC-prefix.pch */,
+				EF5ECC4D0B890826B2B8F043AEA1229B /* BoopathyIC-umbrella.h */,
+				53268169935FA4561F6FB5632802BC84 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BoopathyIC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D61917800589494345F33EA85E6BBDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1DF2135A644199AD1337DE48F9CA69 /* Pods-BoopathyIC_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E79D4C25C50CCB00E060DE418089C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB4ED43C94AFA9C06D933D46AE49535 /* Pods-BoopathyIC_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211F6C669B4EE78513441B2DA0045D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA288DC9A2AB7FE9D738CE7F8CFCB83 /* BoopathyIC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61848CDDDC522B5B6F0C4DFAC917F501 /* Pods-BoopathyIC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BBD9963C04A976FF8B20AFAE44111F7 /* Build configuration list for PBXNativeTarget "Pods-BoopathyIC_Tests" */;
+			buildPhases = (
+				95AF0AB321AA26001228FF486D2F5A7A /* Sources */,
+				AEEBF18732A4EDC1ADF24F797606592A /* Frameworks */,
+				3D61917800589494345F33EA85E6BBDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BoopathyIC_Tests";
+			productName = "Pods-BoopathyIC_Tests";
+			productReference = B613E5EF17683B48F5C402E35C50DC2C /* Pods_BoopathyIC_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BAE671C9AC9A36ECAF5F59D7E568807 /* BoopathyIC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F33BAD3C1D02A49FC280A0D00C2D6B /* Build configuration list for PBXNativeTarget "BoopathyIC" */;
+			buildPhases = (
+				018D6BC147671677C46843C6189001FB /* Sources */,
+				084D8F4FAA37F1A286CDC8C178C737AE /* Frameworks */,
+				8211F6C669B4EE78513441B2DA0045D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoopathyIC;
+			productName = BoopathyIC;
+			productReference = 8A2443CCC3415A73CE016EB09306B492 /* BoopathyIC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB0AEC74D59CE57B2772340163C49B99 /* Pods-BoopathyIC_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136BDD595F741D1532A07D88D2D13E59 /* Build configuration list for PBXNativeTarget "Pods-BoopathyIC_Example" */;
+			buildPhases = (
+				A66436235C1044E13FFE9C7CA913596E /* Sources */,
+				989E306542020F907FCEF850F3E7412A /* Frameworks */,
+				52E79D4C25C50CCB00E060DE418089C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B49175A85FB63407D7F2DF5D220B6F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-BoopathyIC_Example";
+			productName = "Pods-BoopathyIC_Example";
+			productReference = C864777D4128831B71F671B27843FCA8 /* Pods_BoopathyIC_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					9BAE671C9AC9A36ECAF5F59D7E568807 = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5C9F653321DAAEB611CE358EEAE128CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BAE671C9AC9A36ECAF5F59D7E568807 /* BoopathyIC */,
+				BB0AEC74D59CE57B2772340163C49B99 /* Pods-BoopathyIC_Example */,
+				61848CDDDC522B5B6F0C4DFAC917F501 /* Pods-BoopathyIC_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018D6BC147671677C46843C6189001FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9C8B421F1E293E00E8A061 /* ImageCompression.swift in Sources */,
+				64A4A3465FF8A9CEB11739605C6A49C7 /* BoopathyIC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AF0AB321AA26001228FF486D2F5A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BD374B5CBB6C0147340EA244C39BAC /* Pods-BoopathyIC_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66436235C1044E13FFE9C7CA913596E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BE39101BB753251A6746B18975650C /* Pods-BoopathyIC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B49175A85FB63407D7F2DF5D220B6F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoopathyIC;
+			target = 9BAE671C9AC9A36ECAF5F59D7E568807 /* BoopathyIC */;
+			targetProxy = 7245B336125FD368ABA81FEB902647BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D146A99BC7B8DAC7A22AC30F013288D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AEF72BD0C4F4195D3923792244F0349 /* Pods-BoopathyIC_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BoopathyIC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoopathyIC_Tests/Pods-BoopathyIC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BoopathyIC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85D2C35E44EBA16A8011DC11B1B29F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C52D2F2B6D0FFEBC3929C91CD23AB56 /* Pods-BoopathyIC_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BoopathyIC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoopathyIC_Example/Pods-BoopathyIC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BoopathyIC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1D3608FDD494120CFB7915C94E7E4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F1D237E2CD189A6C715AE308098EFE /* BoopathyIC.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BoopathyIC/BoopathyIC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BoopathyIC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BoopathyIC/BoopathyIC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BoopathyIC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2481A9E506A3DF95425B5E015A5B347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F1D237E2CD189A6C715AE308098EFE /* BoopathyIC.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BoopathyIC/BoopathyIC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BoopathyIC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BoopathyIC/BoopathyIC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BoopathyIC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E325FDE1DB3DBF0DC1EE408260868CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D742151B38D6804FBA6DD1F23BEF2A /* Pods-BoopathyIC_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BoopathyIC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoopathyIC_Example/Pods-BoopathyIC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BoopathyIC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8F3812AFD74BA2EC550D99692562C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F79CECD5AC35C023D13ED43787228BC4 /* Pods-BoopathyIC_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BoopathyIC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoopathyIC_Tests/Pods-BoopathyIC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BoopathyIC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136BDD595F741D1532A07D88D2D13E59 /* Build configuration list for PBXNativeTarget "Pods-BoopathyIC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E325FDE1DB3DBF0DC1EE408260868CD5 /* Debug */,
+				85D2C35E44EBA16A8011DC11B1B29F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BBD9963C04A976FF8B20AFAE44111F7 /* Build configuration list for PBXNativeTarget "Pods-BoopathyIC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F3812AFD74BA2EC550D99692562C1A /* Debug */,
+				0D146A99BC7B8DAC7A22AC30F013288D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85F33BAD3C1D02A49FC280A0D00C2D6B /* Build configuration list for PBXNativeTarget "BoopathyIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2481A9E506A3DF95425B5E015A5B347 /* Debug */,
+				A1D3608FDD494120CFB7915C94E7E4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

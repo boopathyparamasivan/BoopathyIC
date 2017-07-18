@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BoopathyIC_Example' do
+  pod 'BoopathyIC', :path => '../'
+
+  target 'BoopathyIC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

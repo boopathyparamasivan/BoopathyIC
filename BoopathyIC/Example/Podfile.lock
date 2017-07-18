@@ -1,0 +1,16 @@
+PODS:
+  - BoopathyIC (0.1.0)
+
+DEPENDENCIES:
+  - BoopathyIC (from `../`)
+
+EXTERNAL SOURCES:
+  BoopathyIC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BoopathyIC: db7a05bd1dea9d07a1d3b872c9f6567f3a71edd4
+
+PODFILE CHECKSUM: ad08219019d264ad1e9d2f06d0699de646ed4ccc
+
+COCOAPODS: 1.2.1

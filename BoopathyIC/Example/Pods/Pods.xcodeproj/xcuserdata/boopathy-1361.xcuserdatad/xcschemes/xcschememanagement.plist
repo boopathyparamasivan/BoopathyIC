@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BoopathyIC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BoopathyIC_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BoopathyIC_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>61848CDDDC522B5B6F0C4DFAC917F501</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BAE671C9AC9A36ECAF5F59D7E568807</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB0AEC74D59CE57B2772340163C49B99</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
