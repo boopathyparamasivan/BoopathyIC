@@ -11,6 +11,7 @@ import UIKit
 
 public class ImageCompression
 {
+    // Compress image by scaling
     public func compressImageByScaling( image : CGImage, maxWidth : CGFloat, maxHeight : CGFloat ) -> CGImage
     {
         var actImgWidth : CGFloat = CGFloat( image.width )
